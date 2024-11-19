@@ -49,8 +49,8 @@ def generate_sentence_by_sentence_video(text, output_filename="output_sentence_b
     os.remove(audio_file)
 
 # Example usage
-story_text = (
-    "This is the first sentence of the story. Here comes the second sentence. "
-    "The third sentence provides more context. Finally, we conclude with the last sentence."
-)
-generate_sentence_by_sentence_video(story_text, "sentence_by_sentence_video.mp4")
+print("Enter your story below (sentences separated by periods):")
+user_story = input()
+
+# Generate video from the user's input
+generate_sentence_by_sentence_video(user_story, "user_storyboard_video.mp4")
