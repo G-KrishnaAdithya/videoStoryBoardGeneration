@@ -1,5 +1,11 @@
-
 # Video Storyboard Generation
+
+## Demo Recording
+
+Check out a demo of the working code here:  
+[Demo Recording on Google Drive](https://drive.google.com/file/d/1tB-fr-ulQrmwkMljI8ur5sggqmy339Lr/view?usp=sharing)
+
+---
 
 This project generates a video with text appearing sentence by sentence, synchronized with audio narration. It utilizes the `gTTS` library for text-to-speech conversion and `moviepy` for video editing.
 
@@ -11,8 +17,8 @@ This project generates a video with text appearing sentence by sentence, synchro
 
 ## Prerequisites
 
-Make sure you have Python installed. 
-Also make sure that you have required dependencies installed To know the required dependencies used refer to Dependencies_Installation_Guide.md for installing the dependencies
+Make sure you have Python installed.  
+Also, ensure you have the required dependencies installed. Refer to `Dependencies_Installation_Guide.md` for installing the dependencies.  
 It's recommended to use a virtual environment for this project.
 
 ## Installation
@@ -80,4 +86,4 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 - [MoviePy](https://zulko.github.io/moviepy/)
 
 
-A Demo Recodring of working code is here : 
+A Demo Recodring of working code is here : https://drive.google.com/file/d/1tB-fr-ulQrmwkMljI8ur5sggqmy339Lr/view?usp=sharing
