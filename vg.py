@@ -47,7 +47,8 @@ def generate_sentence_by_sentence_video(text, output_filename="output_sentence_b
 
     for i, sentence in enumerate(valid_sentences):
         # Create a TextClip for the sentence
-        text_clip = TextClip(sentence, fontsize=50, color='white', size=(1280, 720), bg_color='black', method="caption")
+        text_clip = TextClip(sentence, fontsize=20, color='white', size=(1280,720), bg_color='black', method="caption")
+        text_clip = text_clip.set_position(("center", "bottom"))
         text_clip = text_clip.set_start(start_times[i]).set_duration(sentence_durations[i])
         clips.append(text_clip)
 
